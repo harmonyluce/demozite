@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "demosite",
+    "title": "Quiz Demo",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Q1. Match each description with the corresponding R function featured in this chapter.\n\n\n\nReturns a quantile of a normally distributed random variable:  Choose… dbinom() pbinom() pnorm() qnorm() pnorm() prop.table() \n\n\nCalculates the probability of a binomial random variable X being at most a specified value:  Choose… dbinom() pbinom() pnorm() qnorm() pnorm() prop.table() \n\n\nValidates the estimated probabilities described in the Empirical Rule:  Choose… dbinom() pbinom() pnorm() qnorm() pnorm() prop.table() \n\n\n\n\n\n\nQ2. If the chance that it will snow today is 13%, then by the  Choose… addition delulu multiplication negation three-month rizz  rule, the probability it will not is 87%.\n\n\n\n\n\nQ3. Let’s say an airline sold tickets to 140 people, each of whom will either show up to fly or will not show up to fly. They have observed historically a 9% probability that a passenger will be a no-show for a flight. They issued 140 tickets for 134 seats because they expect at least 6 no-shows. Assume each passenger showing up or not showing up to fly are independent. What is the probability that there are fewer than 6 no-shows?\n\n\n\n  0.7% \n\n\n  1.1% \n\n\n  1.6% \n\n\n  2.7% \n\n\n  97% \n\n\n  99% \n\n\n\n\n\n\n\n\nPrevious\n\n\nNext\n\n\nSubmit\n\n\nReset"
   },
   {
     "objectID": "about.html",

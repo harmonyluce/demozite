@@ -1,1 +1,83 @@
-/* css styles */
+.question ul {
+  list-style-type: square;
+  padding-left: 1.2em;   /* controls bullet position */
+  margin-left: 0;
+}
+
+.question li {
+  margin: 0.4em 0;
+}
+
+.question input[type="radio"] {
+  list-style: none;
+}
+
+.question ul:has(input[type="radio"]) {
+  list-style: none;
+  padding-left: 0;
+}
+
+.question li:has(input[type="radio"]) {
+  list-style: none;
+}
+
+.question {
+  max-width: 600px;
+}
+
+/* align the question text area consistently */
+.question p {
+  margin-left: 0;
+}
+
+/* fix ALL lists inside questions */
+.question ul {
+  padding-left: 2.5em;   /* main indentation */
+  margin-left: 0;
+}
+
+/* ensure radio + checkbox labels follow same indent */
+.question label {
+  margin-left: 1.5em;
+  display: block;
+}
+
+/* optional: tighten spacing */
+.question li {
+  margin: 0.4em 0;
+}
+
+.modeb-submit {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+.question {
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.question p {
+  text-align: justify;
+}
+
+/* Question title */
+.question p {
+  margin: 0 0 0.75rem 0;
+}
+
+/* shared indentation block for BOTH lists and radios */
+.question ul,
+.question .radio-group {
+  padding-left: -33em;
+  margin: 0;
+}
+
+.question {
+  display: none;
+}
+
+.question.active {
+  display: block;
+}
